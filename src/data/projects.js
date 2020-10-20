@@ -1,7 +1,7 @@
 import proj1 from '../assets/gerry.png';
-import proj2 from '../assets/shell.png';
+import proj2 from '../assets/chess.png';
 import proj3 from '../assets/popcorn.png';
-import proj4 from '../assets/chess.png';
+
 
 const PROJECTS = [
     {
@@ -14,9 +14,9 @@ const PROJECTS = [
     },
     {
         id: 2,
-        title: 'simple_shell',
-        description: 'A very simple shell written in C for linux cmd line',
-        link: 'https://github.com/sam-edwards99/simple_shell',
+        title: 'Chess MiniMax AI',
+        description: 'Python AI for Chess',
+        link: 'https://github.com/sam-edwards99/chess-minimax',
         image: proj2
 
     },
@@ -28,14 +28,7 @@ const PROJECTS = [
         image: proj3
 
     },
-    {
-        id: 4,
-        title: 'Chess MiniMax AI',
-        description: 'Python AI for Chess',
-        link: 'https://github.com/sam-edwards99/chess-minimax',
-        image: proj4
-
-    }
+    
 ];
 
 export default PROJECTS;
